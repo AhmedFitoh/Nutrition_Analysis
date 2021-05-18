@@ -3,18 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2D6CF5F330C3ABEDD8B3C2 /* Pods_Nutrition_Analysis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CC6C75244C3C3B7AEA4D03 /* Pods_Nutrition_Analysis.framework */; };
+		9C4772B92652F6F800B243F1 /* UIViewController+ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4772B82652F6F800B243F1 /* UIViewController+ShowAlert.swift */; };
+		9C4772BA2652F6F800B243F1 /* UIViewController+ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4772B82652F6F800B243F1 /* UIViewController+ShowAlert.swift */; };
+		9C4772C62653065000B243F1 /* IngredientSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4772C42653065000B243F1 /* IngredientSummaryViewController.swift */; };
+		9C4772C72653065000B243F1 /* IngredientSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4772C42653065000B243F1 /* IngredientSummaryViewController.swift */; };
+		9C4772C82653065000B243F1 /* IngredientSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4772C52653065000B243F1 /* IngredientSummaryViewController.xib */; };
+		9C4772C92653065000B243F1 /* IngredientSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4772C52653065000B243F1 /* IngredientSummaryViewController.xib */; };
+		9C4772D1265307D000B243F1 /* IngredientSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4772D0265307D000B243F1 /* IngredientSummaryViewModel.swift */; };
+		9C4772D2265307D000B243F1 /* IngredientSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4772D0265307D000B243F1 /* IngredientSummaryViewModel.swift */; };
+		9C4772E92653403000B243F1 /* NutritionFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4772E72653403000B243F1 /* NutritionFactsViewController.swift */; };
+		9C4772EA2653403000B243F1 /* NutritionFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4772E72653403000B243F1 /* NutritionFactsViewController.swift */; };
+		9C4772EB2653403000B243F1 /* NutritionFactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4772E82653403000B243F1 /* NutritionFactsViewController.xib */; };
+		9C4772EC2653403000B243F1 /* NutritionFactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4772E82653403000B243F1 /* NutritionFactsViewController.xib */; };
+		9C4772F4265340FF00B243F1 /* NutritionFactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4772F3265340FF00B243F1 /* NutritionFactsViewModel.swift */; };
+		9C4772F5265340FF00B243F1 /* NutritionFactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4772F3265340FF00B243F1 /* NutritionFactsViewModel.swift */; };
 		9CA51A1F264E2F6A00116DFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51A1E264E2F6A00116DFD /* AppDelegate.swift */; };
-		9CA51A21264E2F6A00116DFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51A20264E2F6A00116DFD /* SceneDelegate.swift */; };
-		9CA51A23264E2F6A00116DFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51A22264E2F6A00116DFD /* ViewController.swift */; };
-		9CA51A26264E2F6A00116DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA51A24264E2F6A00116DFD /* Main.storyboard */; };
 		9CA51A28264E2F6B00116DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA51A27264E2F6B00116DFD /* Assets.xcassets */; };
 		9CA51A2B264E2F6B00116DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA51A29264E2F6B00116DFD /* LaunchScreen.storyboard */; };
 		9CA51A36264E2F6B00116DFD /* Nutrition_AnalysisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51A35264E2F6B00116DFD /* Nutrition_AnalysisTests.swift */; };
-		9CA51A41264E2F6B00116DFD /* Nutrition_AnalysisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51A40264E2F6B00116DFD /* Nutrition_AnalysisUITests.swift */; };
+		9CA51A6D264E374900116DFD /* IngredientInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51A6B264E374900116DFD /* IngredientInputViewController.swift */; };
+		9CA51A6E264E374900116DFD /* IngredientInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51A6B264E374900116DFD /* IngredientInputViewController.swift */; };
+		9CA51A6F264E374900116DFD /* IngredientInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA51A6C264E374900116DFD /* IngredientInputViewController.xib */; };
+		9CA51A70264E374900116DFD /* IngredientInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA51A6C264E374900116DFD /* IngredientInputViewController.xib */; };
+		9CA51A84264EE94600116DFD /* IngredientInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51A83264EE94600116DFD /* IngredientInputViewModel.swift */; };
+		9CA51A85264EE94600116DFD /* IngredientInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51A83264EE94600116DFD /* IngredientInputViewModel.swift */; };
+		9CA51A94264EEB0600116DFD /* IngredientsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51A93264EEB0600116DFD /* IngredientsRequestModel.swift */; };
+		9CA51A95264EEB0600116DFD /* IngredientsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51A93264EEB0600116DFD /* IngredientsRequestModel.swift */; };
+		9CA51A9F264EF1E800116DFD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51A9E264EF1E800116DFD /* Constants.swift */; };
+		9CA51AA0264EF1E800116DFD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51A9E264EF1E800116DFD /* Constants.swift */; };
+		9CA51AA9264EF3CE00116DFD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51AA8264EF3CE00116DFD /* Networking.swift */; };
+		9CA51AAA264EF3CE00116DFD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51AA8264EF3CE00116DFD /* Networking.swift */; };
+		9CA51AB2264EF40E00116DFD /* NutritionDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51AB1264EF40E00116DFD /* NutritionDetailsModel.swift */; };
+		9CA51AB3264EF40E00116DFD /* NutritionDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA51AB1264EF40E00116DFD /* NutritionDetailsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +60,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03CC6C75244C3C3B7AEA4D03 /* Pods_Nutrition_Analysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nutrition_Analysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CEF1E6B6F1475711AB4DA1A /* Pods-Nutrition Analysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition Analysis.debug.xcconfig"; path = "Target Support Files/Pods-Nutrition Analysis/Pods-Nutrition Analysis.debug.xcconfig"; sourceTree = "<group>"; };
+		90593B4057521972AA7D0EE6 /* Pods-Nutrition Analysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrition Analysis.release.xcconfig"; path = "Target Support Files/Pods-Nutrition Analysis/Pods-Nutrition Analysis.release.xcconfig"; sourceTree = "<group>"; };
+		9C4772B82652F6F800B243F1 /* UIViewController+ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowAlert.swift"; sourceTree = "<group>"; };
+		9C4772C42653065000B243F1 /* IngredientSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientSummaryViewController.swift; sourceTree = "<group>"; };
+		9C4772C52653065000B243F1 /* IngredientSummaryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientSummaryViewController.xib; sourceTree = "<group>"; };
+		9C4772D0265307D000B243F1 /* IngredientSummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientSummaryViewModel.swift; sourceTree = "<group>"; };
+		9C4772E72653403000B243F1 /* NutritionFactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionFactsViewController.swift; sourceTree = "<group>"; };
+		9C4772E82653403000B243F1 /* NutritionFactsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NutritionFactsViewController.xib; sourceTree = "<group>"; };
+		9C4772F3265340FF00B243F1 /* NutritionFactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionFactsViewModel.swift; sourceTree = "<group>"; };
 		9CA51A1B264E2F6A00116DFD /* Nutrition Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nutrition Analysis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA51A1E264E2F6A00116DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CA51A20264E2F6A00116DFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CA51A22264E2F6A00116DFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9CA51A25264E2F6A00116DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CA51A27264E2F6B00116DFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CA51A2A264E2F6B00116DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CA51A2C264E2F6B00116DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,8 +79,13 @@
 		9CA51A35264E2F6B00116DFD /* Nutrition_AnalysisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrition_AnalysisTests.swift; sourceTree = "<group>"; };
 		9CA51A37264E2F6B00116DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CA51A3C264E2F6B00116DFD /* Nutrition AnalysisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nutrition AnalysisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CA51A40264E2F6B00116DFD /* Nutrition_AnalysisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrition_AnalysisUITests.swift; sourceTree = "<group>"; };
-		9CA51A42264E2F6B00116DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA51A6B264E374900116DFD /* IngredientInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientInputViewController.swift; sourceTree = "<group>"; };
+		9CA51A6C264E374900116DFD /* IngredientInputViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientInputViewController.xib; sourceTree = "<group>"; };
+		9CA51A83264EE94600116DFD /* IngredientInputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientInputViewModel.swift; sourceTree = "<group>"; };
+		9CA51A93264EEB0600116DFD /* IngredientsRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsRequestModel.swift; sourceTree = "<group>"; };
+		9CA51A9E264EF1E800116DFD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9CA51AA8264EF3CE00116DFD /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		9CA51AB1264EF40E00116DFD /* NutritionDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionDetailsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C2D6CF5F330C3ABEDD8B3C2 /* Pods_Nutrition_Analysis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +114,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C4772B72652F6D900B243F1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C4772B82652F6F800B243F1 /* UIViewController+ShowAlert.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9C4772C1265305FE00B243F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C4772C42653065000B243F1 /* IngredientSummaryViewController.swift */,
+				9C4772C52653065000B243F1 /* IngredientSummaryViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C4772C32653060800B243F1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9C4772D0265307D000B243F1 /* IngredientSummaryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9C4772E326533FCA00B243F1 /* NutritionFactsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9C4772E526533FF700B243F1 /* View */,
+				9C4772E62653400100B243F1 /* ViewModel */,
+			);
+			path = NutritionFactsScreen;
+			sourceTree = "<group>";
+		};
+		9C4772E426533FDD00B243F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CA51AB1264EF40E00116DFD /* NutritionDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C4772E526533FF700B243F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C4772E72653403000B243F1 /* NutritionFactsViewController.swift */,
+				9C4772E82653403000B243F1 /* NutritionFactsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C4772E62653400100B243F1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9C4772F3265340FF00B243F1 /* NutritionFactsViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		9CA51A12264E2F6A00116DFD = {
 			isa = PBXGroup;
 			children = (
 				9CA51A1D264E2F6A00116DFD /* Nutrition Analysis */,
 				9CA51A34264E2F6B00116DFD /* Nutrition AnalysisTests */,
-				9CA51A3F264E2F6B00116DFD /* Nutrition AnalysisUITests */,
 				9CA51A1C264E2F6A00116DFD /* Products */,
+				B375900C59FEBC15C1C63E46 /* Pods */,
+				F2E93AB40E16993C721C384E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +197,11 @@
 		9CA51A1D264E2F6A00116DFD /* Nutrition Analysis */ = {
 			isa = PBXGroup;
 			children = (
+				9C4772B72652F6D900B243F1 /* Extensions */,
+				9CA51A9D264EF1D300116DFD /* Resources */,
+				9CA51AA7264EF33500116DFD /* Networking */,
+				9CA51A61264E360B00116DFD /* Scenes */,
 				9CA51A1E264E2F6A00116DFD /* AppDelegate.swift */,
-				9CA51A20264E2F6A00116DFD /* SceneDelegate.swift */,
-				9CA51A22264E2F6A00116DFD /* ViewController.swift */,
-				9CA51A24264E2F6A00116DFD /* Main.storyboard */,
 				9CA51A27264E2F6B00116DFD /* Assets.xcassets */,
 				9CA51A29264E2F6B00116DFD /* LaunchScreen.storyboard */,
 				9CA51A2C264E2F6B00116DFD /* Info.plist */,
@@ -119,13 +218,100 @@
 			path = "Nutrition AnalysisTests";
 			sourceTree = "<group>";
 		};
-		9CA51A3F264E2F6B00116DFD /* Nutrition AnalysisUITests */ = {
+		9CA51A61264E360B00116DFD /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				9CA51A40264E2F6B00116DFD /* Nutrition_AnalysisUITests.swift */,
-				9CA51A42264E2F6B00116DFD /* Info.plist */,
+				9CA51A62264E361100116DFD /* IngredientAnalyzer */,
 			);
-			path = "Nutrition AnalysisUITests";
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9CA51A62264E361100116DFD /* IngredientAnalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				9CA51A66264E367400116DFD /* IngredientInputScreen */,
+				9CA51A67264E368500116DFD /* IngredientSummaryScreen */,
+				9C4772E326533FCA00B243F1 /* NutritionFactsScreen */,
+			);
+			path = IngredientAnalyzer;
+			sourceTree = "<group>";
+		};
+		9CA51A66264E367400116DFD /* IngredientInputScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9CA51A92264EEAEE00116DFD /* Model */,
+				9CA51A81264EE92200116DFD /* View */,
+				9CA51A82264EE92C00116DFD /* ViewModel */,
+			);
+			path = IngredientInputScreen;
+			sourceTree = "<group>";
+		};
+		9CA51A67264E368500116DFD /* IngredientSummaryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9C4772E426533FDD00B243F1 /* Model */,
+				9C4772C1265305FE00B243F1 /* View */,
+				9C4772C32653060800B243F1 /* ViewModel */,
+			);
+			path = IngredientSummaryScreen;
+			sourceTree = "<group>";
+		};
+		9CA51A81264EE92200116DFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CA51A6B264E374900116DFD /* IngredientInputViewController.swift */,
+				9CA51A6C264E374900116DFD /* IngredientInputViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9CA51A82264EE92C00116DFD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9CA51A83264EE94600116DFD /* IngredientInputViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9CA51A92264EEAEE00116DFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CA51A93264EEB0600116DFD /* IngredientsRequestModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9CA51A9D264EF1D300116DFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CA51A9E264EF1E800116DFD /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9CA51AA7264EF33500116DFD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9CA51AA8264EF3CE00116DFD /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B375900C59FEBC15C1C63E46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CEF1E6B6F1475711AB4DA1A /* Pods-Nutrition Analysis.debug.xcconfig */,
+				90593B4057521972AA7D0EE6 /* Pods-Nutrition Analysis.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2E93AB40E16993C721C384E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03CC6C75244C3C3B7AEA4D03 /* Pods_Nutrition_Analysis.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +321,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CA51A45264E2F6B00116DFD /* Build configuration list for PBXNativeTarget "Nutrition Analysis" */;
 			buildPhases = (
+				70DAAF82729E4F83725298D7 /* [CP] Check Pods Manifest.lock */,
 				9CA51A17264E2F6A00116DFD /* Sources */,
 				9CA51A18264E2F6A00116DFD /* Frameworks */,
 				9CA51A19264E2F6A00116DFD /* Resources */,
+				E77A7E591E5C7BB89E06C89D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +421,9 @@
 			files = (
 				9CA51A2B264E2F6B00116DFD /* LaunchScreen.storyboard in Resources */,
 				9CA51A28264E2F6B00116DFD /* Assets.xcassets in Resources */,
-				9CA51A26264E2F6A00116DFD /* Main.storyboard in Resources */,
+				9C4772EB2653403000B243F1 /* NutritionFactsViewController.xib in Resources */,
+				9C4772C82653065000B243F1 /* IngredientSummaryViewController.xib in Resources */,
+				9CA51A6F264E374900116DFD /* IngredientInputViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +431,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4772C92653065000B243F1 /* IngredientSummaryViewController.xib in Resources */,
+				9CA51A70264E374900116DFD /* IngredientInputViewController.xib in Resources */,
+				9C4772EC2653403000B243F1 /* NutritionFactsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +446,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		70DAAF82729E4F83725298D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nutrition Analysis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E77A7E591E5C7BB89E06C89D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nutrition Analysis/Pods-Nutrition Analysis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nutrition Analysis/Pods-Nutrition Analysis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nutrition Analysis/Pods-Nutrition Analysis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CA51A17264E2F6A00116DFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CA51A23264E2F6A00116DFD /* ViewController.swift in Sources */,
+				9C4772F4265340FF00B243F1 /* NutritionFactsViewModel.swift in Sources */,
+				9C4772B92652F6F800B243F1 /* UIViewController+ShowAlert.swift in Sources */,
+				9CA51A9F264EF1E800116DFD /* Constants.swift in Sources */,
+				9C4772C62653065000B243F1 /* IngredientSummaryViewController.swift in Sources */,
+				9CA51A6D264E374900116DFD /* IngredientInputViewController.swift in Sources */,
+				9CA51A94264EEB0600116DFD /* IngredientsRequestModel.swift in Sources */,
+				9C4772E92653403000B243F1 /* NutritionFactsViewController.swift in Sources */,
+				9CA51AB2264EF40E00116DFD /* NutritionDetailsModel.swift in Sources */,
+				9CA51AA9264EF3CE00116DFD /* Networking.swift in Sources */,
 				9CA51A1F264E2F6A00116DFD /* AppDelegate.swift in Sources */,
-				9CA51A21264E2F6A00116DFD /* SceneDelegate.swift in Sources */,
+				9C4772D1265307D000B243F1 /* IngredientSummaryViewModel.swift in Sources */,
+				9CA51A84264EE94600116DFD /* IngredientInputViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +512,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4772F5265340FF00B243F1 /* NutritionFactsViewModel.swift in Sources */,
+				9C4772BA2652F6F800B243F1 /* UIViewController+ShowAlert.swift in Sources */,
+				9CA51AA0264EF1E800116DFD /* Constants.swift in Sources */,
+				9C4772C72653065000B243F1 /* IngredientSummaryViewController.swift in Sources */,
+				9CA51A6E264E374900116DFD /* IngredientInputViewController.swift in Sources */,
+				9CA51A95264EEB0600116DFD /* IngredientsRequestModel.swift in Sources */,
+				9C4772EA2653403000B243F1 /* NutritionFactsViewController.swift in Sources */,
+				9CA51AB3264EF40E00116DFD /* NutritionDetailsModel.swift in Sources */,
+				9CA51AAA264EF3CE00116DFD /* Networking.swift in Sources */,
 				9CA51A36264E2F6B00116DFD /* Nutrition_AnalysisTests.swift in Sources */,
+				9C4772D2265307D000B243F1 /* IngredientSummaryViewModel.swift in Sources */,
+				9CA51A85264EE94600116DFD /* IngredientInputViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +531,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CA51A41264E2F6B00116DFD /* Nutrition_AnalysisUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +550,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9CA51A24264E2F6A00116DFD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9CA51A25264E2F6A00116DFD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9CA51A29264E2F6B00116DFD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +679,7 @@
 		};
 		9CA51A46264E2F6B00116DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CEF1E6B6F1475711AB4DA1A /* Pods-Nutrition Analysis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +698,7 @@
 		};
 		9CA51A47264E2F6B00116DFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90593B4057521972AA7D0EE6 /* Pods-Nutrition Analysis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

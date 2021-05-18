@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IngredientSummaryViewController" customModule="Nutrition_Analysis" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="2W9-CK-1h2" id="qWt-h4-Vf7"/>
+                <outlet property="fetchTotalNutritionButton" destination="qxR-NN-GTp" id="nyC-KP-15Y"/>
+                <outlet property="tableView" destination="Jh0-lI-mo0" id="5z5-yj-ArI"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Jh0-lI-mo0">
+                    <rect key="frame" x="0.0" y="66" width="414" height="740"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxR-NN-GTp">
+                    <rect key="frame" x="132.5" y="818" width="149" height="32"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                    <state key="normal" title="Show total nutrition">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="2W9-CK-1h2">
+                    <rect key="frame" x="289.5" y="824" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Jh0-lI-mo0" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="22" id="J0U-KO-Rc3"/>
+                <constraint firstItem="Jh0-lI-mo0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Ocz-YH-jkE"/>
+                <constraint firstItem="2W9-CK-1h2" firstAttribute="leading" secondItem="qxR-NN-GTp" secondAttribute="trailing" constant="8" id="QVG-vW-cDV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="qxR-NN-GTp" secondAttribute="bottom" constant="12" id="ezq-zM-cgf"/>
+                <constraint firstItem="qxR-NN-GTp" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="gDS-pk-kgn"/>
+                <constraint firstItem="qxR-NN-GTp" firstAttribute="top" secondItem="Jh0-lI-mo0" secondAttribute="bottom" constant="12" id="lcF-wj-wZx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Jh0-lI-mo0" secondAttribute="trailing" id="mkm-7m-yeC"/>
+                <constraint firstItem="2W9-CK-1h2" firstAttribute="centerY" secondItem="qxR-NN-GTp" secondAttribute="centerY" id="qZN-xX-bS0"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="103.79464285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
